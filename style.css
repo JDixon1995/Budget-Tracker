@@ -9,6 +9,29 @@ body {
     background-color: gray;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+h2 {
+    color: darkgray;
+}
+
+#main {
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#hero {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 #budgetAmount {
     color: green;
 }
@@ -17,18 +40,13 @@ body {
     color: red;
 }
 
-#main {
-    text-align: center;
-    border: black solid;
-    padding: 15px;
-    margin: 20px;
-}
 
 #leftContainer {
     width: 500px;
     border: black solid;
     padding: 15px;
     margin: 10px;
+    height: 700px;
 }
 
 #centerContainer {
@@ -36,6 +54,7 @@ body {
     border: black solid;
     padding: 15px;
     margin: 10px;
+    height: 700px;
 }
 
 #rightContainer {
@@ -43,10 +62,12 @@ body {
     border: black solid;
     padding: 15px;
     margin: 10px;
+    height: 700px;
 }
 /* Flexbox Below */
 section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.6),transparent);
 }
