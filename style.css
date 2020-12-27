@@ -1,0 +1,52 @@
+/* Browser Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    background-color: gray;
+}
+
+#budgetAmount {
+    color: green;
+}
+
+#expenses {
+    color: red;
+}
+
+#main {
+    text-align: center;
+    border: black solid;
+    padding: 15px;
+    margin: 20px;
+}
+
+#leftContainer {
+    width: 500px;
+    border: black solid;
+    padding: 15px;
+    margin: 10px;
+}
+
+#centerContainer {
+    width: 500px;
+    border: black solid;
+    padding: 15px;
+    margin: 10px;
+}
+
+#rightContainer {
+    width: 500px;
+    border: black solid;
+    padding: 15px;
+    margin: 10px;
+}
+/* Flexbox Below */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
